@@ -43,13 +43,15 @@ Realizar una aplicación de consola que consuma la siguiente api
 https://apis.datos.gob.ar/georef/api/provincias?campos=id,nombre y que muestre el
 listado de provincias y su correspondiente id.
 */
- //inicio de la api
-    
+
+
+//inicio de la api
 var url="https://apis.datos.gob.ar/georef/api/provincias?campos=id,nombre"; //datos de los elixirs de harry potter
 var request=(HttpWebRequest)WebRequest.Create(url);
 request.Method="GET";
 request.ContentType="application/json";
 request.Accept="application/json";
+//el inicio de la api
 try
 {
     using (WebResponse response=request.GetResponse())
@@ -67,32 +69,8 @@ try
                 int l = 0;
                 for (int p = 0; p < provincias.Count; p++) // recorro los datos de la lista recibida de la api
                 {
-                    //System.Console.WriteLine("Nombre : "+ provincias[p].Name);
-                    //controla la cantidad de veces que aparecen los nombres y cuales son 
-                    // for (l=0; l < 4; l++) //recorro los personajes
-                    // {
-                    //     if (provincias[p].Name==grupo1[l].Nombre || provincias[p].Name==grupo2[l].Nombre)
-                    //     {
-                    //         nombres.Add(provincias[p].Name);
-                    //         cantidadElixir++;
-                    //     }
-                    // }
-                    // l=0;
-                    //inicio de provincias
                     System.Console.WriteLine("Las provincia es: "+ provincias[p].Nombre+ "Su id es: "+ provincias[p].Id);
                 }
-                //los nombres q apareceran son 3, en caso de que se use el json
-                // if (cantidadElixir>0)
-                // {
-                //     System.Console.WriteLine("La cantidad de nombres que coinciden con los nombres de elixir son: "+ cantidadElixir);
-                //     foreach (var item in nombres)
-                //     {
-                //         System.Console.WriteLine("Nombre: "+ item);
-                //     }
-                // }else
-                // {
-                //     System.Console.WriteLine("Ningun nombre coincide con la api");
-                // }
             }
         }
     }
@@ -100,6 +78,7 @@ try
 catch{
     System.Console.WriteLine("Se preodujo un error");
 }
+
 
 
 public class Provincia

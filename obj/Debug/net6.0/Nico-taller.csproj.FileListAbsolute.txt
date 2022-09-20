@@ -1,0 +1,15 @@
+C:\Users\Agu\Desktop\Nico-taller\bin\Debug\net6.0\Nico-taller.exe
+C:\Users\Agu\Desktop\Nico-taller\bin\Debug\net6.0\Nico-taller.deps.json
+C:\Users\Agu\Desktop\Nico-taller\bin\Debug\net6.0\Nico-taller.runtimeconfig.json
+C:\Users\Agu\Desktop\Nico-taller\bin\Debug\net6.0\Nico-taller.dll
+C:\Users\Agu\Desktop\Nico-taller\bin\Debug\net6.0\Nico-taller.pdb
+C:\Users\Agu\Desktop\Nico-taller\obj\Debug\net6.0\Nico-taller.csproj.AssemblyReference.cache
+C:\Users\Agu\Desktop\Nico-taller\obj\Debug\net6.0\Nico-taller.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Agu\Desktop\Nico-taller\obj\Debug\net6.0\Nico-taller.AssemblyInfoInputs.cache
+C:\Users\Agu\Desktop\Nico-taller\obj\Debug\net6.0\Nico-taller.AssemblyInfo.cs
+C:\Users\Agu\Desktop\Nico-taller\obj\Debug\net6.0\Nico-taller.csproj.CoreCompileInputs.cache
+C:\Users\Agu\Desktop\Nico-taller\obj\Debug\net6.0\Nico-taller.dll
+C:\Users\Agu\Desktop\Nico-taller\obj\Debug\net6.0\refint\Nico-taller.dll
+C:\Users\Agu\Desktop\Nico-taller\obj\Debug\net6.0\Nico-taller.pdb
+C:\Users\Agu\Desktop\Nico-taller\obj\Debug\net6.0\Nico-taller.genruntimeconfig.cache
+C:\Users\Agu\Desktop\Nico-taller\obj\Debug\net6.0\ref\Nico-taller.dll
