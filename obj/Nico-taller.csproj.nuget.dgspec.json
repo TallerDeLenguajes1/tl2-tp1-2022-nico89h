@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Agu\\Desktop\\Nico-taller\\Nico-taller.csproj": {}
+    "C:\\Users\\user\\OneDrive\\Escritorio\\taller2-tp1\\tl2-tp1-2022-nico89h\\Nico-taller.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Agu\\Desktop\\Nico-taller\\Nico-taller.csproj": {
+    "C:\\Users\\user\\OneDrive\\Escritorio\\taller2-tp1\\tl2-tp1-2022-nico89h\\Nico-taller.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Agu\\Desktop\\Nico-taller\\Nico-taller.csproj",
+        "projectUniqueName": "C:\\Users\\user\\OneDrive\\Escritorio\\taller2-tp1\\tl2-tp1-2022-nico89h\\Nico-taller.csproj",
         "projectName": "Nico-taller",
-        "projectPath": "C:\\Users\\Agu\\Desktop\\Nico-taller\\Nico-taller.csproj",
-        "packagesPath": "C:\\Users\\Agu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Agu\\Desktop\\Nico-taller\\obj\\",
+        "projectPath": "C:\\Users\\user\\OneDrive\\Escritorio\\taller2-tp1\\tl2-tp1-2022-nico89h\\Nico-taller.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\OneDrive\\Escritorio\\taller2-tp1\\tl2-tp1-2022-nico89h\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Agu\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -52,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

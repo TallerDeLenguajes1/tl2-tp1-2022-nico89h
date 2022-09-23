@@ -1,24 +1,6 @@
-﻿/*
-) Implementar la solución del siguiente programa usando Try Catch para capturar los posibles
-errores.
-Escribir la declaración de una clase que almacene información de un empleado: Datos
-personales, Dirección, fecha de ingreso la empresa, datos profesionales.
-a) La clase empleado deberá calcular la antigüedad en la empresa, la edad del
-empleado y el salario. Este se calcula de acuerdo a la fórmula: Salario = Sueldo
-Básico + Adicional – Descuento
-Descuento = 15 % del Sueldo Básico.
-Adicional = 1 % del sueldo básico por cada año de antigüedad
-2 años_________________________ 2%
-15 años_________________________ 1 5%
-> 20 años________________________ 25% (a partir de 20 años se fija en 25%)
-b) Modifica luego la clase de tal manera que puedas suministrar la información:
-i) Si es casado, la cantidad de hijos.
-ii) Si es divorciado, la fecha de su divorcio.
-iii) Si tiene título universitario, el título y la universidad que impartió el título.
-c) Permite el ingreso de N trabajadores
-d) Muestra en una lista los datos: Apellido y Nombre, Edad, Antigüedad y Salario de los
-trabajadores ingresados
-*/
+﻿//inicio de la creacion de N trabajadores
+Empleado jose=new Empleado("Nicolas", "Leal", "Lamadrid 1190", 44747829, DateTime.Parse("2020/07/89"), 213214412, Cargos.Universitario, EstadoCivil.Soltero);
+jose.mostrarDatos();
 
 //Inicio d eel cargo
 enum Cargos
@@ -26,6 +8,7 @@ enum Cargos
     Universitario,
     Secundario
 }
+//inicio de  ek estado civil
 enum EstadoCivil
 {
     Casado,
@@ -98,10 +81,16 @@ class Empleado{
         System.Console.WriteLine("La fecha del divorcio fue en :"+ this.divorcioFecha.ToString("yyyyMMdd"));
     }
 
-//     i) Si es casado, la cantidad de hijos.
-// ii) Si es divorciado, la fecha de su divorcio.
-// iii) Si tiene título universitario, el título y la universidad que impartió el título.
-
+    public void mostrarDatos(){
+        System.Console.WriteLine("Los datos de el empleado son: ");
+        System.Console.WriteLine("Nombre "+ this.nombre);
+        System.Console.WriteLine("Apellido: "+ this.apellido);
+        System.Console.WriteLine("El sueldo es: "+ this.sueldo);
+        System.Console.WriteLine("Fecha de ingreso: "+ this.fechaIngreso);
+        System.Console.WriteLine("La antiguedad es: "+ this.antiguedad);
+        System.Console.WriteLine("El estado civil es: "+ this.estadoCivil);
+        System.Console.WriteLine("La educacion de el empleado es de nivel: "+ this.tipoEducacion);
+    }
 }
 /*
 Este se calcula de acuerdo a la fórmula: Salario = Sueldo
